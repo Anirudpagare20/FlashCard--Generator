@@ -1,25 +1,23 @@
-Create Flashcard Page:---
+This is a Capstone Project - Flashcard Generater
 
-Contains two forms: one for flashcard name and description, and another for creating dynamic cards using Formik.
-Supports adding images to flashcards.
-Implements form validation using Formik.
-Uses Redux Toolkit for global state management.
+which has mainly 3 pages
 
+Create Flashcard Page
+My Flashcards Page
+Flashcard Details Page
+Problem Statement :- to create a Flashcard Generator Web Application, which will have mainly 3 pages,
 
+First page was to Create Flashcard which contains two form one for the name & description of the flashcard and also has functionality to add Images, second form was to create Dynamic Form which was created using FORMIK, which has individual card name & card description. After clicking the Create Button, the Flashcard will be created.
 
-My Flashcards Page:
+Also has form validations using Formik & Redux Toolkit is used for the Global State Management
 
-Displays user-created flashcards:---
-Initially shows only 6 cards, with the option to load more by clicking the "See All" button.
+The second page was to display all the user created cards, By default the user can only see 6 cards & after clicking the See All button all the remaining cards will be displayed.
 
+After clicking on the View Cards, User redirected to flashcard details page, where user can see all the cards on that flashcard, by clicking on the menu on the left side display the each selected card on the middle section,
 
+On the right side there are the button i.e. Share, Download, Print, by clicking on the Share button a Modal pops up & the user can copy link on that model by clicking on the copy to clipboard button the link copied to the clipboard & user can paste it anywhere.
 
-Flashcard Details Page:
-
-Allows users to view all the cards in a flashcard:---
-Displays each selected card in the middle section.
-Offers options for sharing, downloading, and printing flashcards.
-Includes a modal for sharing, with options to copy a link to the clipboard and share on social media platforms like Facebook, Instagram, Whatsapp, Twitter, and via email.
+On that same modal on bottom side, user can share the created flashcard to their social handler like Facebook, Instagram, Whatsapp, Twitter, Mail, etc
 
 
 
