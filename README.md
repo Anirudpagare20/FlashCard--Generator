@@ -1,3 +1,4 @@
+you can view our website at https://anirudpagare20.github.io/FlashCard--Generator/
 This is a Capstone Project - Flashcard Generater
 
 which has mainly 3 pages
