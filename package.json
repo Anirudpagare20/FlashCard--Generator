@@ -17,7 +17,7 @@
     "gh-pages": "^6.0.0",
     "immer": "^9.0.15",
     "nanoid": "^4.0.0",
-    "react": "^18.2.0",
+    "react": "^18.0.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-daisyui": "^2.3.2",
     "react-dom": "^18.2.0",
@@ -32,6 +32,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+  
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
